@@ -1,0 +1,52 @@
+<html><head>
+    <title>signin</title>
+    <style>
+        body{
+            background-image: url(file:///C:/Users/velan/Downloads/page1.png);
+            background-size: cover;
+        }
+        form{
+            border: 1px solid black;
+            border-radius: 10px;
+            border-width: 5px;
+        }
+        div{
+            text-align: center;
+            margin: 20px;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            Name:
+            <input type="text" placeholder="Full Name" name="name">
+        </div>
+        <div>
+            password:
+            <input type="password" placeholder="password" name="password">
+        </div>
+        <div>
+            <input type="radio" value="female">female
+            <input type="radio" value="male">male
+        </div>
+        <div>
+            mail:
+            <input type="text" placeholder="@gmail.com" name="mail">
+        </div>
+        <div>
+            country:
+            <input list="countries" name="country" placeholder="country">
+            <datalist id="countries">
+               <option value="india"></option>
+               <option value="US"></option>
+               <option value="UK"></option>
+               <option value="german"></option>
+               <option value="indonesia"></option>
+            </datalist>
+        </div>
+    <div><a href="home1.html">signup</a></div>
+</form>
+ 
+</body></html>

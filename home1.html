@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>homepage</title>
+        <style>
+             .flex-container{
+
+                  display:flex;
+                 align-items:stretch;
+                 flex-wrap: wrap;
+            }
+            .container1{
+                background-image: url(file:///C:/Users/velan/Downloads/eastpic.jpg);
+                background-size: cover;
+                padding:20px;
+                margin:20px;
+                height:200px;
+                width:400px;
+            }
+            .container2{
+                background-image: url(file:///C:/Users/velan/Downloads/westpic.jpg);
+                background-size: cover;
+                padding:20px;
+                margin:20px;
+                height:200px;
+                width:400px;
+            }
+            .container3{
+                background-image: url(file:///C:/Users/velan/Downloads/northpic.webp);
+                background-size: cover;
+                padding:20px;
+                margin:20px;
+                height:200px;
+                width:400px;
+            }
+            .container4{
+                background-image: url(file:///C:/Users/velan/Downloads/southpic.jpg);
+                background-size: cover;
+                padding:20px;
+                margin:20px;
+                height:200px;
+                width:400px;
+            }
+            .inline{
+                display:inline-block;
+            }
+            div{
+                padding-bottom: 20px;
+                margin: 50px;
+            }
+            .button{
+                padding:50px;
+                margin:100px;
+                width:1000px;
+                height:1000px;
+            }
+        </style>
+    </head>
+    <body>
+        <center><div class="flex-container">
+            <div class="container1"><form action="east.html"><button onclick="east" data-inline="true">east</button></form></div>
+            <div class="container2"><form action="west.html"><button onclick="west" data-inline="true">west</button></form></div>
+            <div class="container3"><form action="north.html"><button onclick="north" data-inline="true">north</button></form></div>
+            <div class="container4"><form action="south.html"><button onclick="south" data-inline="true">south</button></form></div>
+        </div></center>
+    </body>
+</html>
